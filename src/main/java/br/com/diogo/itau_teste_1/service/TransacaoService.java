@@ -36,7 +36,7 @@ public class TransacaoService {
     }
 
     public DoubleSummaryStatistics calcularEstatisticas() {
-        OffsetDateTime agora = OffsetDateTime.now();
+        //OffsetDateTime agora = OffsetDateTime.now();
         OffsetDateTime limite = OffsetDateTime.now().minusSeconds(60);
 
         return transacoesList.stream()
